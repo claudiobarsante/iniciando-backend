@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+node_modules/
+build/
+temp/
+# tmp/* ignora todos arquivos na pasta tmp
+tmp/*
+# porém não vai ignora a pasta e nem o arquivo .gitkeep
+!tmp/.gitkeep
